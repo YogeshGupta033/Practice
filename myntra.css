@@ -1,0 +1,12 @@
+.class1{
+  background: #87fd6c;
+  padding: 5px 30px;
+  border: #87fd6c;
+  border-radius: 5px;
+}
+.class2{
+  border-radius: 5px;
+  border-color: solid black;
+  padding: 5px 45px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="myntra.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button id="atb" class="class1" onclick =
+   "cartQty++;
+   document.querySelector('#cart-value').innerText = `Your cart has ${cartQty} Items.`"
+   >Add to Bag</button>
+  
+  <button id="mtwl" class="class2"
+  onclick="wl++;
+  cartQty --;
+  document.querySelector('#wish-list').innerText = `Your Wish List Has ${wl} Item.`;
+  document.querySelector('#cart-value').innerText = `Your cart has ${cartQty} Items.`"
+  
+  >Move to Wish List</button>
+  <button id="asi" class="class1"onclick =
+  "cartQty+=2;
+  document.querySelector('#cart-value').innerText = `Your cart has ${cartQty} Items.`"  
+  >Add 1+1 sale Item</button>
+  <h1 id="cart-value"></h1>
+  <h1 id="wish-list"></h1>
+  <script>
+    let cartQty=0;
+    let wl=0;
+    
+    let add1;
+    document.querySelector('#cart-value').innerText = `Your cart has ${cartQty} Items.`;
+    document.querySelector('#wish-list').innerText = `Your Wish List Has ${wl} Item.`;
+    
+  </script>
+
+</body>
+</html>
