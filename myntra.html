@@ -14,6 +14,9 @@
   
   <button id="mtwl" class="class2"
   onclick="wl++;
+  if(cartQty<=0){
+    return;
+  }
   cartQty --;
   document.querySelector('#wish-list').innerText = `Your Wish List Has ${wl} Item.`;
   document.querySelector('#cart-value').innerText = `Your cart has ${cartQty} Items.`"
