@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  Hello Check Console and Commented Codes 
+  
+  <script>
+      // function determineDriveStatus(){
+      //   let age = '';
+        
+      //   if (age === undefined || age === ""){
+      //     return 'You are not an Human';
+      //   }
+      //   console.log('Checking Driving Status');
+      //   let status
+      //   if(age >= 18 && age <= 65){
+      //     status = ' You are Legal Driver';
+      //   }
+      //   else{
+      //     status = 'You are Illegal Driver';
+      //   }
+      //   return status;
+      // }
+      // console.log(determineDriveStatus())
+
+
+      // function sum(a,b){
+      //  let sum=a+b;
+      //   return sum;
+      // }
+      // console.log(`Your sum is ${sum(8.5,4.2)}`);
+      // console.log(`Your sum is ${sum(5.35,2.88)}`);
+      // console.log(`Your sum is ${sum(-88,-42)}`);
+
+      function Odd(number){
+        if(number % 2 == 0) {
+          return `${number} is Even Number`;
+        }else{
+          return `${number} is Odd Number`;
+        }
+      }
+      let number= prompt('Enter a Number');
+      console.log(number + Odd());
+      console.log(Odd());
+
+
+  </script>
+</body>
+</html>
