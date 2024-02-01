@@ -36,18 +36,45 @@
       // console.log(`Your sum is ${sum(5.35,2.88)}`);
       // console.log(`Your sum is ${sum(-88,-42)}`);
 
-      function Odd(number){
-        if(number % 2 == 0) {
-          return `${number} is Even Number`;
-        }else{
-          return `${number} is Odd Number`;
-        }
+      // function Odd(number){
+      //   if(number % 2 == 0) {
+      //     return `${number} is Even Number`;
+      //   }else{
+      //     return `${number} is Odd Number`;
+      //   }
+      // }
+      // let number= prompt('Enter a Number');
+      // console.log(number + Odd());
+      // console.log(Odd());
+
+      // function largerNum(num1, num2){
+      //     // if(num1 > num2 ) {
+      //     //   return `The Larger Number Is:${num1}`;
+      //     // }
+      //     //   else{
+      //     //     return `The Larger Number Is:${num2}`;
+      //     //   }
+      //   return num1 > num2 ? num1 : num2;
+      // }
+      
+      // let num1;
+      // num1 = prompt(`Enter 1st Number`);
+      // let num2;
+      // num2= prompt(`Enter 2nd Number`);
+      // console.log(largerNum(num1, num2));
+      // alert(`Your 1st Number is ${num1} and 2nd Number is ${num2}`);
+      const a=prompt("Please Enter Temperature in Celsius");
+
+      function CtoF(temp){
+        return 9/5* temp+32;
       }
-      let number= prompt('Enter a Number');
-      console.log(number + Odd());
-      console.log(Odd());
+       
+      //  console.log(`Temprature in Celsius to Convert it into Fahrenheit:`);
+      console.log(`ur input is ${a}`); 
+      console.log(CtoF(a));
 
-
+      console.log(CtoF(1));
+  
   </script>
 </body>
 </html>
