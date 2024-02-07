@@ -8,13 +8,13 @@
 <body>
   
   <script>
-    let product={
-      company: 'Mango',
-      price: 45,
-      'item-name': 'T-shirt',
+    // let product={
+    //   company: 'Mango',
+    //   price: 45,
+    //   'item-name': 'T-shirt',
 
-    };
-    console.log(product);
+    // };
+    // console.log(product);
     // console.log(product.company);
     // console.log(product['item-name']);
     // console.log(product.price);
@@ -26,10 +26,46 @@
     // console.log(product.company);
     // console.log(product.price);
 
-    delete product.company
-    console.log(product);
+    // delete product.company
+    // console.log(product);
+
+    // let product={
+    //   company: 'Mango',
+    //   price: 45,
+    //   'item-name': 'T-shirt',
+    //   displayPrice: function(){
+    //     console.log(`Price of Product is : ₹${this.price}`)
+    //   }
+
+    // };
+    // product.displayPrice();
+
+    // console.log('this is testing of AutoBoxing'.length);
+    // console.log('this is testing of AutoBoxing'.toUpperCase());
+    // let a = 10;
+    // b = a;
+    // console.log(`A = ${a} , B = ${b}`);
+    // a=15;
+    // console.log(`A = ${a} , B = ${b}`);
+    // let x = {num:20};
+    // y = x;
+    // console.log(`X = ${x.num} , Y = ${y.num}`);
+    // x.num=25;
+    // console.log(`X = ${x.num} , Y = ${y.num}`);
 
 
+      let product={
+      company: 'Mango',
+      price: 45,
+      'item-name': 'T-shirt',
+
+    };
+    let {company , price}=product;
+    console.log(company);
+    console.log(price);
+    console.log(product.company);
+
+    
   </script>
 </body>
 </html>
