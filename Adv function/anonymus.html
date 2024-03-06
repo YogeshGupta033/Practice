@@ -6,8 +6,72 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- <button id="my-button">Click me</button>     -->
     <script>
+
+        let arr= [1,2,3,4,5,6,7,8,9]
+
+        let squre = arr.map(num=>num*num);
+        console.log(squre);
+
+
+
+
+
+
+        // let arr= [1,2,3,4,5,6,7,8,9,0];
+        // let odds = arr.filter((num,index) => {
+        //     if(num %2 === 1){
+        //         return true;
+        //     } 
+        //     else{
+        //         return false;
+        //     }
+        // });
+        // let newOdds = arr.filter((num, index) => num % 2 === 1
+        // );
+        // console.log(newOdds);
+
+
+
+
+
+
+
+
+        // let arr = [3,5,6,8,9]
+        // for(i=0; i < arr.length; i++){
+        //     console.log(arr[i])
+        // }
+
+        // arr.forEach(num=> console.log(num));
+
+        // function search(arr, num){
+        //     for(i=0; i < arr.length; i++){
+        //         if(arr[i]===num){
+        //             console.log(`Element found at : ${i}`);
+        //             return;
+        //         }
+        //     }
+        //     console.log('Element was not Found')
+        // }
+        
+        // search(arr,1);
+
+
+        // let buttonElement = document.querySelector('#my-button');
+        // let behavior = event => console.log('I m Clicked')
+
+        // buttonElement.addEventListener('click',behavior);
+
+        // let printDate = event => console.log(new Date());
+        // buttonElement.addEventListener('click',printDate);
+        // buttonElement.removeEventListener('click',behavior);
+
+
+
+
+
         // let sum = function (num1, num2){
         //     return num1 + num2;
         // }
@@ -31,10 +95,23 @@
         // console.log(squre(9));
 
 
-        let alram = function(){
-            console.log('hello this is a test of alram');
-        }
-        setTimeout(alram,5000);
+        // let alram = function(){
+        //     console.log('hello this is a test of alram');
+        // }
+        // setTimeout(alram,5000);
+        // console.log('hello this is 2nd code')
+
+        
+        // let alram = () =>{
+        //     console.log(`hello this is a test of alram${new Date()}`);
+        // }
+        // let timerId = setTimeout(alram,1000);
+        // console.log(`alram set with timer id : ${timerId}`);
+        // clearTimeout(timerId);
+
+        // let intervalId = setInterval(alram,1000);
+        // setTimeout(()=> clearInterval(intervalId),10000);
+
     </script>
 </body>
 </html>
